@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Games by Category - Free2Play</title>
+    <meta name="description"
+        content="Explore thousands of free online games by category: Action, Racing, Puzzle, Strategy, and more. Instant play, no downloads.">
+    <meta name="keywords"
+        content="game categories, action games, racing games, puzzle games, strategy games, free online games, browser games">
+    <link rel="canonical" href="https://www.free2play.in/categories.html">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.free2play.in/categories.html">
+    <meta property="og:title" content="Browse Game Categories - Free2Play">
+    <meta property="og:description"
+        content="Explore thousands of free online games by category. Action, Racing, Puzzle, and more.">
+    <meta property="og:image" content="https://www.free2play.in/assets/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.free2play.in/categories.html">
+    <meta property="twitter:title" content="Browse Game Categories - Free2Play">
+    <meta property="twitter:description"
+        content="Explore thousands of free online games by category. Action, Racing, Puzzle, and more.">
+    <meta property="twitter:image" content="https://www.free2play.in/assets/og-image.jpg">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="index.html" style="text-decoration:none;" class="brand">
+            <span class="brand-text">Free2Play</span>
+        </a>
+        <div class="nav-right">
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="categories.html" class="nav-link active">Categories</a>
+            </div>
+            <div class="search-box">
+                <span class="search-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </span>
+                <input type="text" id="search-input" class="search-input" placeholder="Search games...">
+                <button class="search-btn" onclick="performNavigationSearch()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <h2 class="section-title">Browse Categories</h2>
+        <div id="category-page-grid" class="category-page-grid">
+            <!-- Categories will be injected here via JS -->
+            <!-- Script converts games.json categories into cards -->
+        </div>
+    </main>
+
+    <footer>
+        <div style="text-align: center; padding: 40px; color: var(--text-secondary); font-size: 0.9rem;">
+            &copy; 2026 Free2Play. All rights reserved. <br>
+            <div style="margin-top: 10px; display: flex; gap: 20px; justify-content: center;">
+                <a href="about.html" style="color: var(--text-secondary); text-decoration: none;">About</a>
+                <a href="privacy.html" style="color: var(--text-secondary); text-decoration: none;">Privacy Policy</a>
+                <a href="terms.html" style="color: var(--text-secondary); text-decoration: none;">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
