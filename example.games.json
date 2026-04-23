@@ -1,0 +1,15 @@
+[
+    {
+        "uid": "g001",
+        "title": "name",
+        "description": "description",
+        "thumbnail": "url",
+        "iframeUrl": "url",
+        "categories": [
+            "",
+            ""
+        ],
+        "isMobile": true,
+        "isTrending": false
+    }
+]
